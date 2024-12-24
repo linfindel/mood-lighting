@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "Funnel Sans";
+  src: url("FunnelSans.ttf");
+}
+
+* {
+  color: white;
+  font-family: "Funnel Sans", sans-serif;
+}
+
+body {
+  background-color: black;
+
+  margin: 0;
+
+  overflow: hidden;
+}
+
+h1 {
+  font-size: 5rem;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -100%);
+
+  outline: none;
+}
