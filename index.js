@@ -47,10 +47,12 @@ function calculateContrastRatio() {
 
     if (contrastRatio < 2) {
       document.getElementById("colour").style.color = "black";
+      document.getElementById("help").style.color = "black";
     }
 
     else {
       document.getElementById("colour").style.color = "white";
+      document.getElementById("help").style.color = "white";
     }
   }
 }
